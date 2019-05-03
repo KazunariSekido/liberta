@@ -1,7 +1,7 @@
 <template>
   <div id="top">
     <top-header></top-header>
-    <h1>TopPage</h1>
+    <h1>Toppage</h1>
   </div>
 </template>
 
