@@ -1,20 +1,22 @@
 <template>
-  <div class="topFaq">
-    <h2>よくある質問</h2>
-    <input class="hd_btn" type="button" @click="toFaq" value="すべての質問を見る">
+  <div class="topSns">
+    <h2>SNS</h2>
+    <input class="hd_btn" type="button" @click="toSns" value="twitter">
+    <input class="hd_btn" type="button" @click="toSns" value="Facebook">
+    <input class="hd_btn" type="button" @click="toSns" value="Instagram">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TopFaq',
+  name: 'TopSns',
   data () {
     return {
     }
   },
   methods: {
     toFaq () {
-      this.$router.push('/faq')
+      this.$router.push('/begginer')
     }
   }
 }
@@ -22,7 +24,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.topFaq{
+.topSns{
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;

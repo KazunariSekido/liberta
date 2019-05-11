@@ -1,20 +1,14 @@
 <template>
-  <div class="topFaq">
-    <h2>よくある質問</h2>
-    <input class="hd_btn" type="button" @click="toFaq" value="すべての質問を見る">
+  <div class="footer">
+    <h1>footer</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TopFaq',
+  name: 'Footer',
   data () {
     return {
-    }
-  },
-  methods: {
-    toFaq () {
-      this.$router.push('/faq')
     }
   }
 }
@@ -22,7 +16,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.topFaq{
+.footer{
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;
