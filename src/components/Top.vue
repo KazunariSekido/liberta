@@ -1,5 +1,5 @@
 <template>
-  <div id="top" class="toppage">
+  <div id="top">
     <top-header></top-header>
     <h1>TopPage</h1>
     <top-search></top-search>
@@ -48,7 +48,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.toppage{
+#top{
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;

@@ -1,12 +1,20 @@
 <template>
-  <div class="company">
+  <div id="company">
+    <company-header></company-header>
     <h1>会社概要</h1>
+    <company-footer></company-footer>
   </div>
 </template>
 
 <script>
+import Header from '@/components/header'
+import Footer from '@/components/footer'
 export default {
   name: 'Company',
+  components: {
+    'company-header': Header,
+    'company-footer': Footer
+  },
   data () {
     return {
     }
