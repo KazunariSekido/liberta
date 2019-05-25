@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h1>head</h1>
+    <h1>header</h1>
     <div>
       <input class="hd_btn1" type="button" @click="toCompany" value="会社概要">
       <input class="hd_btn1" type="button" @click="toClient" value="企業担当の方へ">
